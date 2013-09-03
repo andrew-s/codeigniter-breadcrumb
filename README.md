@@ -1,14 +1,16 @@
-# Breadcrumb Library for CodeIgniter2+
+Breadcrumb Library for CodeIgniter2+
+===============
 
 This library will help you generate breadcrumbs, the list of horizontal trailing links that are often displayed on sites. The methods are simple and at the moment, the library is at a basic level.
 
-## Requirements
+Requirements
+------------
+1. CodeIgniter 2+
 
- - CodeIgniter 2+
+Usage Example
+------------
 
-## Usage Example
-
-```
+```php
 // load library
 $this->load->library('breadcrumb');
 
@@ -24,3 +26,7 @@ $this->breadcrumb->change_link('&lt;'); // you can change what joins the crumbs
 // output
 echo($this->breadcrumb->output());
 ```
+
+Contributing
+------------
+Please do feel free to fork, modify, add, fix and put in a pull request
